@@ -1,0 +1,125 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+  background-color:#FCAF02;
+}
+
+.navbar-logo img {
+  height: 40px;
+}
+
+.navbar-links {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.navbar-links li {
+  margin: 5px;
+}
+
+.navbar-links li a {
+  font-family: 'Montserrat';
+  text-decoration: none;
+  color: #333;
+  font-weight: 400;
+  font-size: 16px;
+}
+.intro-section {
+  background-color: black;
+  padding:50px;
+}
+
+.container {
+  max-width: 1200px;
+  margin:auto;
+}
+
+.intro-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.intro-left {
+  flex-basis: 50%;
+  color:white;
+}
+
+.intro-left h1 {
+  font-size: 30px;
+}
+
+.intro-left p {
+  font-size: 14px;
+  margin-bottom: 30px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #555;
+}
+
+.intro-right img {
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+}
+.contact-section {
+  background-color: black;
+  padding:1px;
+}
+.contact h1 {
+  font-size: 30px;
+}
+.contact{
+color:#FCAF02
+}
+form {
+
+}
+input{
+margin:10px;
+ height:30px;
+ background-color:black;
+ border: 2px solid #FCAF02;
+ border-radius: 100px;
+}
+::placeholder{
+text-align:center;
+color:#FCAF02
+}
+.table-section{
+  background-color: black;
+  padding:100px;
+}
+table,th{
+padding:10px;
+border:2px solid #FCAF02;
+border-collapse: collapse;
+color:#FCAF02;
+}
+td{
+border:2px solid #FCAF02;
+}
+tfoot{
+background-color:#FCAF02;
+color:black;
+}
+
